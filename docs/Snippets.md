@@ -17,7 +17,7 @@ author: Eddie
 
 ## Code Block
 ```
-{% highlight <language> %}
+{% highlight java %}
     ...
 {% endhighlight %}
 ```
