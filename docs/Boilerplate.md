@@ -1,4 +1,5 @@
 ```
+---
 bg: "imagename.ext"
 layout: post | page
 title:  "Article Title"
@@ -8,4 +9,5 @@ date:   yyyy-mm-dd hh:mm:ss +0000
 categories: posts
 tags: ['']
 author: Eddie
+---
 ```
