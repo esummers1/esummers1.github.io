@@ -1,4 +1,3 @@
-```
 ---
 bg: "imagename.ext"
 layout: post | page
@@ -10,4 +9,3 @@ categories: posts
 tags: ['']
 author: Eddie
 ---
-```
