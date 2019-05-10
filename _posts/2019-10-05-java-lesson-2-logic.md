@@ -25,19 +25,19 @@ int m = 9 % 2;          // modulo (remainder after division)
 Boolean values can be passed or assigned as literals or as the result of expressions - e.g. `return 3 > 2;` is equivalent to `return true;`, although rather less clear. Expressions can be combined using the logical operators:
 
 {% highlight java %}
-boolean one = 2 < 3;                         // less than - expression is true
-boolean two = 2 <= 3;                        // less than or equal to - expression is true
-boolean three = 3 > 2;                       // greater than - expression is true
-boolean four = 3 >= 2;                       // greater than or equal to - expression is true
+boolean one = 2 < 3;                      // less than - expression is true
+boolean two = 2 <= 3;                     // less than or equal to - expression is true
+boolean three = 3 > 2;                    // greater than - expression is true
+boolean four = 3 >= 2;                    // greater than or equal to - expression is true
 
-boolean five = 7 == 8;                       // is equal to - expression is false
-boolean six = 7 != 8;                        // is not equal to - expression is true
+boolean five = 7 == 8;                    // is equal to - expression is false
+boolean six = 7 != 8;                     // is not equal to - expression is true
 
-boolean five = true && false;                // AND operator - expression is false
-boolean six = true || false;                 // OR operator - expression is true
-boolean seven = true && (false || true);     // OR is in brackets and evaluated first
+boolean seven = true && false;            // AND operator - expression is false
+boolean eight = true || false;            // OR operator - expression is true
+boolean nine = true && (false || true);   // OR is in brackets and evaluated first
 
-boolean eight = true && !false;              // NOT operator (!) - expression is true
+boolean ten = true && !false;             // NOT operator (!) - expression is true
 {% endhighlight %}
 
 Expressions can be composed of arbitrarily many layers of these operators. In Java, AND will evaluate before OR if both are on the same level, but it's usually best to nest things properly in brackets to avoid confusion. Objects should be compared with the `Object.equals(object)` method rather than the `==` operator, but this is a topic we'll cover more later on.
