@@ -5,6 +5,7 @@
   - Computers
   - Nature scenes
   - Roads
-- Lesson 2 - operators and branching logic
+  - Higher-resolution rails scene
 - Lesson 3 - functions and flow control
 - Lesson 4 - collections?
+- Add link out to this project from main website
