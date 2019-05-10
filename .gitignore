@@ -1,3 +1,8 @@
+# Compiled source
 _site
+
+# Compiled SCSS
 .sass-cache
+
+# Jekyll files
 .jekyll-metadata
