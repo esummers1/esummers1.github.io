@@ -23,4 +23,6 @@ author: Eddie
 ```
 
  ## Image
-`![Alt Text](<link> "Hover Text")`
+```
+![Alt Text](<link> "Hover Text")
+```
