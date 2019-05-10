@@ -65,7 +65,7 @@ if (1 < 2) {
 }
 {% endhighlight %}
 
-A common idiom is to evaluate a boolean value directly, i.e. `if (booleanVariable == true...)` is equivalent to `if (booleanVariable) ...`. Also, rather than asking if something `== false`, it's simpler to say something like `if (!booleanVariable)...`. So, for instance:
+A common idiom is to evaluate a boolean value directly, i.e. `if (booleanVariable == true)` is equivalent to `if (booleanVariable)`. Also, rather than asking if something `== false`, it's simpler to say something like `if (!booleanVariable)`. So, for instance:
 
 {% highlight java %}
 boolean isRed = true;
