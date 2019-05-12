@@ -1,5 +1,5 @@
 ---
-bg: "tools.jpg"
+bg: "library.jpg"
 layout: post
 title:  "Java Lesson 2 - Operators and Branching Logic"
 crawlertitle: "Java Lesson 2"
