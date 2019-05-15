@@ -1,73 +1,17 @@
-## Voyager
+# Programming Blog
 
-Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
+Static website for [programming.eddie-summers.com](https://programming.eddie-summers.com).
 
-### Feathures:
+## :clipboard: Requirements
 
-All HTML files are compressed (see `_layouts/compress.html`).
+Install Ruby DevKit, followed by Jekyll and Bundler (instructions [here](https://jekyllrb.com/docs/installation)).
 
-**Post**
+## :running: Run Locally
 
-All post settings can be changed. Example:
+`jekyll serve`
 
-```
----
-layout: post
-bg: '2016/background.jpg'
-title: "Post Heading"
-crawlertitle: "page title"
-summary: "post description"
-date: 2016-06-29
-tags : ['front-end']
-slug: post-url
-author: "Author"
-categories: posts
----
-```
+## :house: Build
 
-`bg` is a path to background of your article. By default backgrounds are placed in the `assets/images` directory.
+`jekyll build`
 
-**Page**
-
-If page contains `active` tag, it will be show on site menu.
-
-```
----
-layout: page
-title: "About"
-permalink: /about/
-active: about
----
-```
-
-**Archive**
-
-Archive page is sorting posts by tags. No more than one tag in one post.
-
-Good:
-
-```
-tags : ['front-end']
-```
-
-Bad:
-
-```
-tags : ['front-end', 'jekyll']
-```
-
-Don't forget to change `_config.yml`.
-
-**Relative paths**
-
-If your blog is not in the root directory, you can include images with a relative path. For example:
-
-```
-![my_image]({{ site.images | relative_url }}/image.jpg)
-```
-
-## Production environment
-
-Build for production:
-
-`JEKYLL_ENV=production jekyll build`
+Deploy contents of `./_site` to your remote root.
