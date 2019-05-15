@@ -2,4 +2,4 @@
 
 - Lesson 4 - collections?
 - Lesson 5 - scope?
-- Add link out to this project from main website
+- Add link back from this project to main site
