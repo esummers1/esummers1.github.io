@@ -4,7 +4,7 @@ layout: post
 title:  "Java Lesson 1 - Types and Variables"
 crawlertitle: "Java Lesson 1"
 summary: "Types and Variables"
-date:   2019-10-05 20:00:00 +0000
+date:   2019-05-10 20:00:00 +0000
 categories: posts
 tags: ['java']
 author: Eddie

@@ -4,7 +4,7 @@ layout: post
 title:  "Java Lesson 3 - Functions and Flow Control"
 crawlertitle: "Java Lesson 3"
 summary: "Functions and Flow Control"
-date:   2019-12-05 20:00:00 +0000
+date:   2019-05-12 20:00:00 +0000
 categories: posts
 tags: ['java']
 author: Eddie
@@ -55,8 +55,8 @@ while (counter < 10) {
 A `for` loop repeats a given number of times, according to conditions set up in its declaration. The declaration consists of three parts - the declaration of the counter variable (this is optional - you can use a variable that exists outside the loop, if you want), the condition that must be true for the loop to run again, and what to do each pass through the loop. The classic case is something like this:
 
 {% highlight java %}
-// Will print the numbers 0 - 10
-for (int i = 0; i < 9; i++) {
+// Will print the numbers 0 - 9
+for (int i = 0; i < 10; i++) {
     System.out.println(i);
 }
 {% endhighlight %}

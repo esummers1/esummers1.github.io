@@ -4,7 +4,7 @@ layout: post
 title:  "Java Lesson 2 - Operators and Branching Logic"
 crawlertitle: "Java Lesson 2"
 summary: "Operators and Branching Logic"
-date:   2019-10-05 21:00:00 +0000
+date:   2019-05-10 21:00:00 +0000
 categories: posts
 tags: ['java']
 author: Eddie
