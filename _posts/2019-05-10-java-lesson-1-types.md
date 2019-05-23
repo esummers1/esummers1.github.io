@@ -7,7 +7,7 @@ summary: "Types and Variables"
 date:   2019-05-10 20:00:00 +0000
 categories: posts
 tags: ['java']
-author: Eddie
+author: Eddie Summers
 ---
 
 In Java, there are two kinds of types: **primitives** and **objects**. The chief difference is that objects can have behaviour (methods) and can be defined; primitives do not have behaviour and are baked in.

@@ -7,7 +7,7 @@ summary: "Operators and Branching Logic"
 date:   2019-05-10 21:00:00 +0000
 categories: posts
 tags: ['java']
-author: Eddie
+author: Eddie Summers
 ---
 
 Java, like all good programming languages, has the usual set of mathematical and logical operators. We can use logical operators to determine which branch of a program is executed.

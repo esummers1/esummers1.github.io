@@ -7,7 +7,7 @@ summary: "Functions and Flow Control"
 date:   2019-05-12 20:00:00 +0000
 categories: posts
 tags: ['java']
-author: Eddie
+author: Eddie Summers
 ---
 
 A **function** is some set of instructions that has a name, and hence can be called. It can return a value of some kind if you like, but this is optional. **Parameters** - variables which are received by the function and inform its behaviour - can be specified, but this is also optional. A value which is passed to a function - i.e. an instance of a parameter - is called an **argument**.

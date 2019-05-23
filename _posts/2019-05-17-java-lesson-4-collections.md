@@ -7,7 +7,7 @@ summary: "Collections"
 date:   2019-05-17 20:00:00 +0000
 categories: posts
 tags: ['java']
-author: Eddie
+author: Eddie Summers
 ---
 
 So far we've seen two ways to store information in our programs - **primitives** and **objects**. If we want to store groups of these pieces of data, we need to use collections.

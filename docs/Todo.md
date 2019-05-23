@@ -1,10 +1,11 @@
 # :bookmark_tabs: To-Do List
 
 ## Lessons
-- classes and objects
+- static fields and methods
 - subclasses and inheritance
 - scope and encapsulation
 - project structure
+- javadocs and comments
 - exceptions and error handling
 - interfaces, behavioural composition and abstract classes
 - unit tests
