@@ -1,14 +1,17 @@
 # :bookmark_tabs: To-Do List
 
 ## Lessons
-- static fields and methods
-- subclasses and inheritance
+- inner classes
 - scope and encapsulation
+- interfaces, behavioural composition and abstract classes
+- object construction (incl. non-instantiable classes and factory methods)
 - project structure
 - javadocs and comments
 - exceptions and error handling
-- interfaces, behavioural composition and abstract classes
 - unit tests
+- equals() and hashCode() - object framework
+- abstract data structures
+- decoupling of parts/APIs within the program
 - generics
 - streams and Lambdas
 - threading?
@@ -19,7 +22,3 @@
 - Class of some kind
 - Zoo example
 - Database with streams/lambdas
-
-## Website
-- Add link back from this project to main site
-- Intro page for Java lessons

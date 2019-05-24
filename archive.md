@@ -1,11 +1,11 @@
 ---
 bg: "library2.jpg"
 layout: page
-permalink: /posts/
+permalink: /archive/
 title: "Articles"
 crawlertitle: "Articles"
 summary: ""
-active: archive
+active: true
 ---
 
 {% for tag in site.tags %}
