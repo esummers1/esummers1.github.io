@@ -61,9 +61,7 @@ Note that arrays' indices begin at 0 - an array of length 10 ends at index 9.
 
 ## Lists
 
-Lists can come in many forms, but the most common implementation is a linked list - this is where each item in memory stores a reference to the _next_ element. In order to access element 10 of a linked list, the computer must go to the first one (whose position is known), then follow through each of the links until it reaches the tenth element. This means that long lists are much slower to traverse than arrays, but their length is dynamic.
-
-List is an interface, so to actually create a list you'll need to choose a concrete implementation (more on this later). The default choice is ArrayList.
+A List in Java is some structure that implements the List interface, which specifies a structure which is dynamic in length and preserves the order of elements when added. The most common implementation to use is ArrayList - this works in essence by maintaining an internal array of objects, and copying its contents to a larger array when it runs out of space. Accessing elements in a list is slower than an array. There are other implementations too, such as LinkedList.
 
 {% highlight java %}
 // Declaration and instantiation
@@ -84,7 +82,7 @@ for (String string : strings) {
 
 You can access a list's size using its `.size()` method. This is also true for all the collections to follow.
 
-There's a little more to do here, though - Lists store their objects without type information for backwards-compatibility reasons. This means that our `strings` list above does not actually guarantee its contents are Strings. In order to read its contents and use them _as Strings_, i.e. use behaviour that String has more than Object (the base class of all classes in Java - again, more on this later), we use generics.
+There's a little more to do here, though - Lists store their objects without type information. This means that our `strings` list above does not actually guarantee its contents are Strings. In order to read its contents and use them _as Strings_, i.e. use behaviour that String has more than Object (the base class of all classes in Java - again, more on this later), we use generics.
 
 We'll cover this later in more detail, but what this basically means is that we save ourselves from having to do an explicit `(String)` cast every time we retrieve a value from our Strings list (as Java takes care of it for us), and it also ensures that if we try to add some other object to the list, which would cause an error at runtime when we tried to cast it to String, we'll instead get a compilation error. We use the diamond brackets:
 
