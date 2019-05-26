@@ -1,7 +1,7 @@
 # :bookmark_tabs: To-Do List
 
 ## Lessons
-- inner classes
+- inner classes and enums
 - scope and encapsulation
 - interfaces, behavioural composition and abstract classes
 - object construction (incl. non-instantiable classes and factory methods)
