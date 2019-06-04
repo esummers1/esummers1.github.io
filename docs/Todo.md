@@ -1,8 +1,7 @@
 # :bookmark_tabs: To-Do List
 
 ## Lessons
-- encapsulation
-- interfaces, behavioural composition and abstract classes
+- abstract classes
 - object construction (incl. non-instantiable classes and factory methods)
 - project structure
 - javadocs and comments
@@ -10,7 +9,6 @@
 - unit tests
 - equals() and hashCode() - object framework
 - abstract data structures
-- decoupling of parts/APIs within the program
 - generics
 - streams and Lambdas
 - threading?
