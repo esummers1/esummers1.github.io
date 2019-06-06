@@ -1,16 +1,17 @@
 # :bookmark_tabs: To-Do List
 
 ## Lessons
-- abstract classes
-- object construction (incl. non-instantiable classes and factory methods)
 - project structure
 - javadocs and comments
 - exceptions and error handling
 - unit tests
 - equals() and hashCode() - object framework
-- abstract data structures
 - generics
+- abstract data structures
 - streams and Lambdas
+- design patterns
+  - builder
+  - factory
 - threading?
 
 ## Exercises
