@@ -15,8 +15,4 @@
 - threading?
 
 ## Exercises
-- Hello world type program
-- Some basic functions
-- Class of some kind
-- Zoo example
 - Database with streams/lambdas
