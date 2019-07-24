@@ -2,7 +2,6 @@
 
 ## Lessons
 - project structure
-- javadocs and comments
 - exceptions and error handling
 - unit tests
 - equals() and hashCode() - object framework
