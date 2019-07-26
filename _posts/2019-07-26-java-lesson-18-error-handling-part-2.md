@@ -36,8 +36,6 @@ double divideBy(double num, double den) throws ArithmeticException {
 }
 {% endhighlight %}
 
-This gives you a powerful compile-time tool for verifying the integrity of your error handling.
-
 ## Custom Exceptions
 
 You can define your own Exception types that extend Exception - think of the benefit of this as coming up with your own language for describing possible failure conditions in your program. If a method that tries to link out to a database throws a `DatabaseOfflineException` if the database doesn't respond, or a `NetworkConnectionOfflineException` if the request can't even be made, then the client that invokes the connection attempt can gracefully and specifically catch these errors, and the code will be inituitive.
