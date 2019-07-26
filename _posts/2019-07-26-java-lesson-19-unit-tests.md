@@ -16,6 +16,8 @@ Most languages have libraries you can use to run automated unit tests on your pr
 
 In theory, all behaviours of a program *should* be covered by unit tests. In practice, at least in Java, there is no good way to test private methods. This means that tests should test a class's ability to **honour its contract**, rather than testing all its methods individually. If you find yourself in a position where you want to test private methods, you may need to rethink your design.
 
+Realistically this means that tests for a class should exercise all its public methods in all possible scenarios - or at least, the most important.
+
 ## JUnit
 
 To get JUnit up and running, you will need to add it to your project as a dependency. This can usually be done fairly easily - it will be best to just google how to do it in your IDE of choice. Here is a skeleton JUnit test class:
