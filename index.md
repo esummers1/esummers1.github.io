@@ -6,7 +6,7 @@ title: "Home"
 summary: ""
 ---
 
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 6 %}
   <article class="index-page">
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
