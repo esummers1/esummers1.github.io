@@ -14,7 +14,7 @@ Java projects consist of **packages**. A package is represented in your filesyst
 
 Recall that in lesson 10 we discussed package-private scope - this means that any file in the same package can see this member.
 
-It is a loosely-held convention that your source package for all production code is `src`, though this may vary if you are using a particular framework e.g. Spring. Here is an example from one of my early programming projects, [Orbit Simulator](https://github.com/esummers1/orbit-simulator)
+It is a loosely-held convention that your source package for all production code is `src`, though this may vary if you are using a particular framework e.g. Spring. Here is an example from one of my early programming projects, [Orbit Simulator](https://github.com/esummers1/orbit-simulator).
 
 ```
 src
