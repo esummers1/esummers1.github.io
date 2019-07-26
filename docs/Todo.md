@@ -1,12 +1,12 @@
 # :bookmark_tabs: To-Do List
 
-## Lessons
+## Java Lessons
 - project structure
-- exceptions and error handling
 - unit tests
 - equals() and hashCode() - object framework
 - generics
 - abstract data structures
+- regular expressions
 - streams and Lambdas
 - design patterns
   - builder

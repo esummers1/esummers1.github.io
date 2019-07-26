@@ -3,7 +3,7 @@ bg: "castle.jpg"
 layout: post
 title:  "Java Lesson 16 - Polymorphism"
 crawlertitle: "Java Lesson 16"
-summary: "Comments"
+summary: "Polymorphism"
 date:   2019-07-25 10:00:00 +0000
 categories: posts
 tags: ['java']
