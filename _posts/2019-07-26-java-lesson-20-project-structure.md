@@ -10,7 +10,7 @@ tags: ['java']
 author: Eddie Summers
 ---
 
-Java projects consist of **packages**. A package is represented in your filesystem as a folder, but from the compiler's point of view represents a node on the classpath. This is the overall structure of the project, required for compilation.
+Java projects consist of **packages**. A package is represented in your filesystem as a folder, but from the compiler's point of view it holds a "unit" of the project, i.e. several related classes.
 
 Recall that in lesson 10 we discussed package-private scope - this means that any file in the same package can see this member.
 
