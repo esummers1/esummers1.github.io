@@ -65,8 +65,9 @@ try (Scanner sc = new Scanner(System.in)) {
 The Scanner created during the `try` declaration will be automatically closed when the whole block is finished. This replaces the more awkward `finally` approach:
 
 {% highlight java %}
+Scanner sc = new Scanner(System.in)
+
 try {
-    Scanner sc = new Scanner(System.in)
     // do something with the scanner
 } catch (Exception e) {
     // handle error case
