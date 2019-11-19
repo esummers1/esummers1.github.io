@@ -1,36 +1,44 @@
 # :bookmark_tabs: To-Do List
 
 ## Java Lessons
-- equals() and hashCode() - object framework
-- generics
-- abstract data structures
-- regular expressions
-- streams and Lambdas
-- threading?
+- Generics
+- Object equality - equals() and hashCode() - object framework
+- Lambda functions
+- Streams
+- Threading
+- Debugging
 
 ## Java Exercises
 - Database with streams/lambdas
 
 ## Software Engineering Lessons
-- code smells
-- refactoring
-- design principles
-- design patterns
+- Version control
+  - Git
+  - Tooling
+  - GitHub
+- Design patterns
   - MVC
-  - builder
-  - factory
-- version control
-  - git
+  - Builder
+  - Factory
+- Code smells
+- Refactoring
 - HTTP and APIs (REST)
-- Debugging
+- Documentation
+- Continuous integration
+- Linting and code analysis
+- Regular expressions
 
 ## Angular
 - Javascript
+  - Variable modifiers
   - Asynchronous programming
   - Weak typing
   - Arrow functions
-  - Functions e.g. `map` and `filter`
+  - Function chains e.g. array transforms
 - Typescript
+  - Syntax
+  - Compile-time type checks
+  - Object-oriented features
 - Angular
   - Project structure
   - NPM
@@ -38,7 +46,7 @@
   - Services
   - Routing
   - SCSS
-  - Karma tests
+  - Unit testing with Jasmine/Karma
 
 ## Salesforce
 - Apex differences
