@@ -68,7 +68,7 @@ The ideal time to use a single-line comment is above a one-line operation which 
 
 Multiple-line comments should be used sparingly. One time might be when there is some reason you've had to do something a particular way which might not be obvious. Another might be to explain that due to some third-party dependency you're using, things need to be done here in a certain way.
 
-Javadocs - with the extra asterisk on the opening line - play a special role in Java. Documentation generation tools and IDEs hook into this syntax: the former can create documents for all your classes and functions automatically, and the latter can show you a detailed documentation view if you use a shortcut (Ctrl+J in IntelliJ, for example) when pointing at a function. A Javadoc looks like this:
+Javadocs - with the extra asterisk on the opening line - play a special role in Java. Documentation generation tools and IDEs hook into this syntax: the former can create documents for all your classes and functions automatically, and the latter can show you a detailed documentation view if you use a shortcut when pointing at a function. A Javadoc looks like this:
 
 {% highlight java %}
 /**
