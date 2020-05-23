@@ -1,6 +1,6 @@
 # Programming Blog
 
-Static website for [programming.eddie-summers.com](https://programming.eddie-summers.com).
+Formerly the static website for [programming.eddie-summers.com](https://programming.eddie-summers.com).
 
 ## :clipboard: Requirements
 
